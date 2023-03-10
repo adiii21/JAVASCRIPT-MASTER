@@ -63,3 +63,33 @@
 // person.age = 50;
 
 // console.log(person);
+
+
+// const age = 100;
+// const wes = new Object({
+//     name: "wes",
+//     propertyToCheck: "NEVER",
+//     age,
+//     "cool-dude": true,
+//     "really-cool": false,
+//     "777": true,
+//     dog: "snickers",
+//     clothings: {
+//         shirts: 10,
+//         pants: 2
+//     },
+//     sayHello: function(greeting = "Hey") {
+//         return `${greeting} ${this.name}`;
+//     }
+// });
+
+// console.log(wes.age);
+// const propertyToCheck = prompt("What would you like to check?");
+// console.log(propertyToCheck);
+// console.log(wes[propertyToCheck]);
+
+// const nameInput = document.querySelector('[name="first"]');
+// const name = nameInput.value;
+// console.log(name);
+// Delete from the object
+// console.log(delete wes.name);
