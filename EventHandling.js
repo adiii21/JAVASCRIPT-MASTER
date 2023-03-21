@@ -55,3 +55,27 @@
 //         console.log("You clicked it!")
 //     })
 // })
+
+
+// const buyButtons = document.querySelectorAll("button.buy");
+
+// function buyItem(){
+//     console.log("buyButtons");
+// }
+
+
+// function handleBuyButtonClick(event) {
+//     console.log('you are buying it!');
+//     // console.log(event.target); //Give HTML tag
+//     console.log(event.currentTarget);
+//     console.log(event.target);
+//     event.stopPropagation();
+// }
+
+// buyButtons.forEach(function(buyButton) {
+//     buyButton.addEventListener("click", handleBuyButtonClick);
+// });
+
+// window.addEventListener("click", function(event) {
+//     console.log("you clicked the window");
+// })
